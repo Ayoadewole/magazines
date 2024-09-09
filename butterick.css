@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+:root {
+    --beige: #098;
+    --body: #dea;
+    --bgc: #4a5a6d;
+    --backgroung: wheat;
+}
+
+body {
+    background-color: var(--body);
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    border: 6px solid var(--body);
+}
+
+header {
+    background-color: var(--body);
+    display: flex;
+    padding: 0 auto;
+    margin: auto 46px;
+    height: 7rem !important;
+}
+
+h1 {
+    color: black;
+    font-size: 5.0rem;
+    margin: auto 5px auto 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+#icon {
+    margin: 20px auto auto 295px;
+    font-size: x-small;
+    font-weight: 900;
+    position: relative;
+    top: -80px;
+}
+
+#preheader {
+    background-color: white;
+    margin: 3px -22px 15px 15px;
+    line-height: 0.5;
+    border: 2px solid black;
+    padding-top: -1px;
+}
+
+i {
+    font-size: 3.7rem;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#one {
+    margin: 3px auto auto;
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+
+#two {
+    margin-left: 35px;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+
+#three {
+    margin-top: -20px;    
+}
+
+#four {
+    margin-top: -4px;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+#items {
+    margin-left: 35px;
+}
+
+#five {
+    font-size: 2.3rem;
+    font-weight: 900;
+    margin-top: 0;
+}
+
+#six {
+    font-size: 0.8rem;
+    margin-top: -25px;
+    margin-left: 45px;
+}
+
+#seven {
+    margin-top: -10px;
+    margin-left: 15px;
+    font-size: 1.2rem;
+}
+
+main {
+    width: 86%;
+    height: 98%;
+    border: 10px solid #fff;
+    background-color: #fff;
+    margin: 0 auto 2rem;
+}
+
+#pictures {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#image1::before0 {
+    content: "A";
+}
+
+footer {
+    background-color: white;
+    text-align: right;
+}
+
+footer > p {
+    margin: 10px 105px auto auto;
+}
+
+#big {
+    width: 33px;
+    height: 21px;
+    background: repeating-linear-gradient(#cb1a1a, white 20%);
+    border: 1px solid green;
+    padding: auto;
+    margin-left: 620px;
+    margin-top: -15px;
+}
+
+#small {
+    width: 13px;
+    height: 10px;
+    background-color: blue;
+    padding: auto;
+    margin-left: -1px;
+    margin-top: -1px;
+}
+
+@media (max-width: 600px) {
+    img {
+        display: column;
+        width: 100%;
+    }
+
+    header {
+        height: 3rem;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+    }
+}
